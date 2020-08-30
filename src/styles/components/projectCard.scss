@@ -1,29 +1,40 @@
-.project-card{
-    border: none;
-    height: auto;
-    border-radius: 0;
-    width: 100%; 
-    top:-25;
+.project-card {
+	border: none;
+	height: auto;
+	border-radius: 0;
+	width: 100%;
+	top: -25;
     margin-bottom: 32px;
+    background-color: transparent;
 
-    .project-hero{
-        border-radius: 0;
-        margin-bottom: 18px;
+	.project-hero {
+		border-radius: 0;
+		margin-bottom: 18px;
     }
-    .project-card-body{
-        padding:0;
+    
+	.grow {
+		transition: all 0.3s ease-in-out;
+	}
 
-        .project-title{
-            font-family:'Bentham'; 
-            font-size: 1.5rem; 
-            color: #202226;
+	.grow:hover {
+        cursor: pointer;
+		transform: scale(.97);
+	}
+	.project-card-body {
+		padding: 0;
+
+		.project-title {
+			font-family: 'Bentham';
+			font-size: 1.4rem;
+			color: #202226;
             font-weight: 300;
+            margin-bottom: .5rem;
+		}
+		.project-subtitle {
+			line-height: 150%;
+			font-family: 'Raleway';
+			color: rgba(143, 142, 142, 0.849);
+			font-size: '.7rem';
         }
-        .project-subtitle{
-            line-height: 75%;
-            font-family:'Raleway';
-            color: rgba(143, 142, 142, 0.849);
-            font-size:'.75rem';
-        }
-    }
+	}
 }

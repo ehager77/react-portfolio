@@ -15,11 +15,15 @@
 
 	.nav {
 		margin-top:15px;
-		margin-right: 15px;
+		margin-right: 24px;
         position: absolute;
         right: 0;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+		@include media('<=phone'){
+			margin-right: 15px;
+		}
 	}
 }
