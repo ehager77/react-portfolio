@@ -1,6 +1,7 @@
 import React from 'react';
 import Hamburger from './Hamburger';
 import FadeIn from 'react-fade-in';
+import { Container } from 'react-bootstrap';
 
 class Header extends React.Component {
 	constructor(props){
@@ -15,7 +16,7 @@ class Header extends React.Component {
 	render() {
 		return (
 			<div className={"header " + this.props.className}>
-				<div className="container v-center">
+				<Container>
 					<FadeIn delay='1000' transitionDuration='800'>
 						<div className="row v-center">
 							<div className="logo">
@@ -26,7 +27,7 @@ class Header extends React.Component {
 							</div>
 						</div>
 					</FadeIn>
-				</div>
+				</Container>
 			</div>
 		);
 	}

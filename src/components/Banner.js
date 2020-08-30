@@ -1,5 +1,6 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
+import { Container } from 'react-bootstrap';
 
 class Banner extends React.Component {
 	constructor(props) {
@@ -9,10 +10,10 @@ class Banner extends React.Component {
 	render() {
 		return (
 			<div className="main">
-				<div className="container">
+				<Container>
 					<div className="row">
 						<FadeIn transitionDuration="800" delay="500">
-							<p className={"title " + this.props.className}>Eric G. Hager</p>
+							<p className={'title ' + this.props.className}>Eric G. Hager</p>
 						</FadeIn>
 						<FadeIn transitionDuration="800" delay="200">
 							<h2>Multi-disciplinary technologist</h2>
@@ -20,7 +21,7 @@ class Banner extends React.Component {
 							<h2>pressing global challenges.</h2>
 						</FadeIn>
 					</div>
-				</div>
+				</Container>
 			</div>
 		);
 	}

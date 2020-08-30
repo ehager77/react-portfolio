@@ -1,0 +1,29 @@
+.project-card{
+    border: none;
+    height: auto;
+    border-radius: 0;
+    width: 100%; 
+    top:-25;
+    margin-bottom: 32px;
+
+    .project-hero{
+        border-radius: 0;
+        margin-bottom: 18px;
+    }
+    .project-card-body{
+        padding:0;
+
+        .project-title{
+            font-family:'Bentham'; 
+            font-size: 1.5rem; 
+            color: #202226;
+            font-weight: 300;
+        }
+        .project-subtitle{
+            line-height: 75%;
+            font-family:'Raleway';
+            color: rgba(143, 142, 142, 0.849);
+            font-size:'.75rem';
+        }
+    }
+}

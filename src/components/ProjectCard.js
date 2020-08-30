@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import { Card} from 'react-bootstrap';
 
 class ProjectCard extends React.Component {
 	constructor(props) {
@@ -8,17 +8,15 @@ class ProjectCard extends React.Component {
 
 	render() {
 		return (
-			<div>
-				<Card border="light" style={{ width: '30rem', top:-25}}>
-					<Card.Img variant="top" src={require('../assets/h2grow.png')} />
-					<Card.Body style={{paddingLeft:'0px'}}>
-						<Card.Title style={{fontFamily:'Bentham', fontSize: '1.3rem', color: '##202226', paddingBottom:'7px'}}>Card Title</Card.Title>
-						<Card.Text style={{fontFamily:'Raleway', color: 'grey', fontSize:'.8rem'}}>
+				<Card className="project-card">
+					<Card.Img className="project-hero" variant="top" src={require('../assets/h2grow.png')} />
+					<Card.Body className="project-card-body" >
+						<Card.Title className="project-title" >CardTitle</Card.Title>
+						<Card.Text className="project-subtitle">
 							Some quick example text to build on the card title.
 						</Card.Text>
 					</Card.Body>
-				</Card>
-			</div>
+				</Card>	
 		);
 	}
 }

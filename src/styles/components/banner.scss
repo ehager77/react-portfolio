@@ -1,13 +1,13 @@
 .main {
 	padding-top: 15px;
-	height: 70vh;
-	height: calc(var(--vh, 1vh) * 70);
+	height: 60vh;
+	height: calc(var(--vh, 1vh) * 60);
 	@include media('<=1024px') {
 		height: 80vh;
 		height: calc(var(--vh, 1vh) * 80);
 	}
 	.row {
-		padding-top: 10rem;
+		padding-top: 8rem;
 		flex-direction: column;
 		justify-content: center;
 		color: #909193;
@@ -15,8 +15,8 @@
 			color: transparent;
 		}
 		.title {
-			padding-left: 2.5%;
 			margin-bottom: 28px;
+			padding-left: 30px;
 			font-family: 'Raleway';
 			font-weight: 200;
 			@include media('<=tablet') {
@@ -28,9 +28,8 @@
 		}
 		h2 {
 			margin-top: 0px;
-			line-height: 110%;
-			margin-bottom: 0px;
-			padding-left: 2.5%;
+			line-height: 100%;
+			padding-left: 30px;
 			font-size: 2.4rem;
 			font-weight: 400;
 			color: $white;
@@ -45,7 +44,6 @@
 			}
 			.line {
 				// margin-bottom: 8px;
-				height: 72px;
 				position: relative;
 				overflow: hidden;
 				@include media('<=tablet') {
