@@ -41,7 +41,7 @@ class Hamburger extends React.Component {
 					menuClicked={this.handleClick.bind(this, 0)}
 					width={26}
 					height={16}
-					strokeWidth={1.6}
+					strokeWidth={2}
 					rotate={0}
 					color={color}
 					animationDuration={0.3}

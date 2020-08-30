@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/App.scss';
 import Header from './components/Header';
 import Banner from './components/Banner';
-import Projects from './pages/Projects';
+import Work from './pages/Work';
 
 class App extends React.Component {
 	constructor(props){
@@ -35,7 +35,7 @@ class App extends React.Component {
 			<div className={'App ' + this.state.backgroundColor}>
 				<Header className={this.state.backgroundColor}/>
 				<Banner className={this.state.backgroundColor}/>
-				<Projects className={this.state.backgroundColor}/>
+				<Work className={this.state.backgroundColor}/>
 			</div>
 		);
 	}
