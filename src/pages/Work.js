@@ -4,7 +4,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 
 const Work = () => {
 	return (
-		<Container style={{marginTop: '24px'}}>
+		<Container style={{marginTop: '16px'}}>
 			<Row style={{justifyContent:'space-between'}}>
 				<Col  xs ={12} s={12} md={6}>
 					<ProjectCard/>

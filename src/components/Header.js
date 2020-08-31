@@ -9,10 +9,6 @@ class Header extends React.Component {
 
 	};
 
-	componentDidMount(){
-		console.log(this.props.className)
-	};
-
 	render() {
 		return (
 			<div className={"header " + this.props.className}>

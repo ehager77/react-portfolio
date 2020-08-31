@@ -3,11 +3,11 @@
 	height: 60vh;
 	height: calc(var(--vh, 1vh) * 60);
 	@include media('<=1024px') {
-		height: 80vh;
-		height: calc(var(--vh, 1vh) * 80);
+		height: 70vh;
+		height: calc(var(--vh, 1vh) * 70);
 	}
 	.row {
-		padding-top: 8rem;
+		padding-top: 9rem;
 		flex-direction: column;
 		justify-content: center;
 		color: #909193;
@@ -16,7 +16,7 @@
 		}
 		.title {
 			margin-bottom: 28px;
-			padding-left: 30px;
+			padding-left: 22px;
 			font-family: 'Raleway';
 			font-weight: 200;
 			@include media('<=tablet') {
@@ -28,8 +28,8 @@
 		}
 		h2 {
 			margin-top: 0px;
-			line-height: 100%;
-			padding-left: 30px;
+			line-height: 90%;
+			padding-left: 22px;
 			font-size: 2.4rem;
 			font-weight: 400;
 			color: $white;

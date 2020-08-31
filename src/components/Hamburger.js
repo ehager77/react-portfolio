@@ -10,10 +10,6 @@ class Hamburger extends React.Component {
 		};
 	}
 
-	componentDidMount(){
-		console.log(this.props)
-	}
-
 	componentDidUpdate(){
 		console.log(this.props.color)
 		if(this.props.color == 'blue'){
